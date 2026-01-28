@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/krishnachandra1998/sociosurge.git'
             }
         }
