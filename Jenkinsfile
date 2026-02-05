@@ -13,8 +13,8 @@ pipeline {
 		
 			sh '''
 			echo "Deploying socio surge "
-			sudo rm -rf /var/www/static-site/*
-			sudo cp -r * /var/www/static-site/
+			sudo rm -rf /var/www/html/*
+			sudo cp -r * /var/www/html/
 			'''
 			}
 		}
