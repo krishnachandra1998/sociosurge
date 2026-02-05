@@ -1,5 +1,5 @@
 pipeline {
-  agent any { 
+  agent any 
     stages {
       stage('Checkout Code') {
         steps {
@@ -30,5 +30,5 @@ pipeline {
 		echo "Deployment fail"
 		}
 	}
-}
+
 }
